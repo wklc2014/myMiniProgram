@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/calc/calc",
+    "pages/live/live",
+    "pages/news/news",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "直播吧",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ccc",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/live/live",
+        "text": "直播"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      }
+    ]
+  },
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
+}

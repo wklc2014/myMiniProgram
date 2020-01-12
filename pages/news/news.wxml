@@ -1,0 +1,14 @@
+<view class="container">
+ <text>推荐新闻</text>
+ <view 
+  wx:key="index" 
+  wx:for="{{hotList}}" 
+  wx:for-index="idx" 
+  wx:for-item="value"
+>
+  {{idx}} + {{value.id}} + {{value.name}}
+</view>
+<view wx:for="{{[1,2,3]}} ">
+  {{item}}
+</view>
+</view>

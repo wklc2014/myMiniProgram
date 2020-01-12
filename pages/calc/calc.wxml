@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="item-control">
+    <input placeholder="被加数" bandinput="bandInput"></input>
+  </view>
+  <view class="item-control">
+    <input placeholder="加数" bandinput="bandInput2"></input>
+  </view>
+  <view class="action">
+    <button type="primary" bandtap="bindAdd">计算</button>
+  </view>
+  <view class="item-control result">
+    <input placeholder="结果" value="{{result}}" disabled></input>
+  </view>
+</view>
